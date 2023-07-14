@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Color Generator</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <div class="box">
+        <div class="head">
+            <span class="title">Gradient Color Generator</span>
+            <span class="symbol"><i class='bx bx-refresh' id="refresh"></i></span>
+        </div>
+        <div class="color-box"></div>
+        <div class="select">
+            <select name="Directions" id="directions">
+                <option value="to top">to top</option>
+                <option value="to bottom">to bottom</option>
+                <option value="to left">to left</option>
+                <option value="to right">to right</option>
+                <option value="to bottom right">to bottom right</option>
+                <option value="to bottom left">to bottom left</option>
+                
+            </select>
+        </div>
+        <div class="input">
+            <input type="color" class="color" value="#eaed3b">
+            <input type="color" class="color" value="#c753f5">
+        </div>
+        <div class="code">background:linear-gradient(#eaed3b,#c753f5)</div>
+        <Button id="copy">Copy</Button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Fraunces:wght@400;700&family=Freehand&family=Merriweather:ital,wght@0,700;1,900&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Condensed:ital,wght@0,400;1,700&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #FFF9EC;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#5D2A42;
+    padding: 1.2rem;
+    color:#FFF9EC;
+    margin: 1rem auto;
+    border-radius: 3rem;
+
+}
+.box .head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    gap:2rem;
+
+}
+.box .head .title
+{
+    font-size: 3.3rem;
+}
+#refresh
+{
+    font-size: 3.3rem;
+}
+#refresh:hover{
+    cursor: pointer;
+    color:gray;
+}
+.box .color-box
+{
+    height: 15rem;
+    width: 15rem;
+    background: linear-gradient(#eaed3b,#c753f5);
+    border: none;
+    border-radius: 2rem;
+    margin:1.5rem;
+}
+.box .select select
+{
+    width:15rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    margin: 1.5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.box .input
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    width: 60%;
+}
+.color
+{
+    width: 10rem;
+    margin: 0.5rem;
+}
+.code
+{
+    background-color: #FCB1A6;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color:#5D2A42;
+    text-align: center;
+
+}
+button
+{
+    background-color: #FCB1A6;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 2rem;
+    margin: 0.5rem;
+font-size: 1.5rem;
+color:#5D2A42;
+font-weight: 700;
+}
+button:hover
+{
+    background-color:#FFDCCC ;
+    cursor: pointer;
+}
